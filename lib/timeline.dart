@@ -11,7 +11,18 @@ class TimelinePage extends StatefulWidget {
 }
 
 class TimelinePageState extends State<TimelinePage> {
-  static final List<TimelineEntry> entries = <TimelineEntry>[];
+  static final List<TimelineEntry> entries = <TimelineEntry>[
+    TimelineEntry('Lorem ipsum', 'dolor sit amet, consectetur adipiscing elit. Cras non rutrum nulla, '
+        'vitae bibendum tellus. Morbi neque urna, bibendum a commodo vel, tincidunt suscipit leo.'
+        ' Vestibulum ante ipsum primis in faucibus orci '
+        'luctus et ultrices posuere cubilia Curae; Vestibulum ante ipsum primis in faucibus orci '
+        'luctus et ultrices posuere cubilia Curae.', DateTime.now(), 8, 8),
+    TimelineEntry('Vivamus varius', 'enim et magna mollis, nec scelerisque mauris '
+        'scelerisque. Donec tincidunt eros at massa convallis cursus vel eget dui. '
+        'Nunc metus nisl, molestie nec pellentesque et, feugiat nec libero. Duis quis'
+        ' turpis placerat, blandit arcu a, pharetra ex. Aliquam erat volutpat. '
+        'Donec efficitur mauris mollis odio fringilla facilisis.', DateTime.now().toUtc(), 4, 3),
+  ];
   int _selectedIndex = 0;
 //  static final timelineViewer = new TimelineViewer();
 //  static final settingsPage = new SettingsPage();

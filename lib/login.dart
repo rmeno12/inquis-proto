@@ -57,7 +57,7 @@ class _LoginPageState extends State<LoginPage> {
                 RaisedButton(
                   child: Text('Login'),
                   onPressed: (){
-                    if(passwordController.text == '123' && userController.text != ''){
+                    if(passwordController.text == 'diamond' && userController.text != ''){
                       Navigator.pushReplacement(
                           context,
                           MaterialPageRoute(builder: (context) => new TimelinePage())

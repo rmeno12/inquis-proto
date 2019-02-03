@@ -59,8 +59,9 @@ class InsightsViewState extends State<InsightsView> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
-//            Image.asset('assets/graph-image.png', height: 300,)
-            Icon(Icons.show_chart, size: 300,),
+
+          Image.asset('assets/hoursofsleep.png', height: 300,),
+            //Icon(Icons.show_chart, size: 300,),
             SizedBox(height: 40,),
             Container(
               padding: EdgeInsets.all(24),
